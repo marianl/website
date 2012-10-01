@@ -1,0 +1,336 @@
+/*
+ *******************
+ * =grid overrides
+ *******************
+*/
+
+.grid_3 { margin-left: 60px; }
+
+/*
+ *******************
+ * =miscellaneous
+ *******************
+*/
+.container_24 {
+  padding-top: 10px;
+}
+
+blockquote {
+  position: relative;
+}
+
+blockquote, blockquote p {
+  font-size: 15px;
+  line-height: 20px;
+  font-style: italic;
+  color: #0e0e0e;
+}
+
+p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #353535;
+}
+
+h1, h2 {
+  letter-spacing: -1px;
+}
+
+
+h3 {
+  font-size: 26px;
+  text-transform: lowercase;
+  border-bottom: 1px solid #d1d1f1;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 1em;
+}
+
+a { 
+  color: #7e7e7e;
+  text-decoration: none;
+}
+
+a:hover, .selected {
+  color: black;
+}
+
+.button { 
+  background: #242324;
+  padding: 6px;
+  color: white;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background: black;
+  color: white;
+}
+
+li {
+  margin-left: 24px;
+}
+
+/*
+ *******************
+ * =header
+ *******************
+*/
+
+header {
+  overflow: hidden;
+}
+
+header h1 {
+  text-indent: -9999px;
+  float: left;
+  margin-bottom: 0;
+}
+
+
+header h1 a {
+  background: url(../img/logo.jpg) no-repeat;
+  width: 174px;
+  height: 23px;
+  float: left;
+  margin: 10px 10px 22px;
+}
+
+/*
+ *******************
+ * =nav
+ *******************
+*/
+
+nav {
+  float: right;
+  padding-top: 12px;
+}
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-transform: lowercase;
+}
+
+/*
+ *******************
+ * =banner
+ *******************
+*/
+
+.banner {
+  background: url(../img/city-bg.jpg) no-repeat;
+  width: 695px;
+  height: 231px;
+  clear: both;
+  position: relative;
+}
+
+.banner h2 {
+  text-transform: lowercase;
+  color: white;
+  font-size: 28px;
+  width: 400px;
+  font-weight: normal;
+  position: absolute;
+  bottom: -10px;
+  left: 8px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 0 8px;
+}
+
+.callout {
+  background: black;
+  height: 231px;
+}
+
+/*
+ *******************
+ * =main
+ *******************
+*/
+
+.main { 
+  margin-top: 20px;
+}
+
+.main blockquote p {
+  padding-left: 30px;
+}
+
+.main blockquote p:before, .main blockquote p:after {
+  font-size: 40px;
+  color: #bfbfbf;
+  font-style: italic;
+}
+
+.main blockquote p:first-child:before {
+  content: '“';
+  font-size: 40px;
+  color: #bfbfbf;
+  font-style: italic;
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
+
+.main blockquote p:last-child:after {
+  content: '”';
+  font-size: 40px;
+  color: #bfbfbf;
+  font-style: italic;
+  position: absolute;
+  bottom: -7px;
+  right: 0;
+}
+
+/*
+ *******************
+ * =footer
+ *******************
+*/
+
+footer { 
+  clear: both;
+  border-top: 1px solid #d1d1d1;
+  padding-top: 18px;
+  margin-top: 30px;
+}
+
+/*
+ *******************
+ * =work
+ *******************
+*/
+
+.work h2, .work h4 {
+  font-weight: normal;
+  font-size: 26px;
+}
+
+.work h2 {
+  margin-bottom: 0;
+}
+
+.work img {
+  margin-bottom: 20px;
+}
+
+.work h4 {
+  color: #787878;
+  line-height: 1.2em;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 33px;
+  margin-bottom: 30px;
+}
+
+/*
+ *******************
+ * =services
+ *******************
+*/
+.services .grid_18 {
+  position: relative;
+  height: 650px; 
+  width: 694px; 
+
+}
+.services h2, .services h4 {
+  font-weight: normal;
+  font-size: 26px;
+  text-transform: lowercase;
+}
+
+.services .grid_18 h2 {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 27px;
+  margin-bottom: 27px;
+}
+
+.services img {
+  margin-bottom: 20px;
+}
+
+
+.services .grid_18 h2:after {
+  content: '  From one thing to another, we do it all';
+  text-transform: lowercase;
+  font-weight: normal;
+  font-size: 26px;
+  color: #787878;
+  line-height: 1.2em;
+  bottom: -7px;
+  right: 0;
+}
+
+.services .grid_9 {
+  width: 337px;
+  padding-left: 0px;
+  margin-bottom: 0;
+  padding-right: 5px;
+
+}
+
+.services .grid_9:first-child {
+  padding-right: 0px;
+  padding-left: 5px;
+}
+
+.services .grid_9:last-child {
+  padding-right: 5px;
+  padding-left: 0px;
+}
+
+.services .grid_6 {
+  background: #2e2e2e;
+  width: 246px;
+  height: 650px;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.services .grid_6 ul {
+  color: #8c8c8c;
+  padding-left: 16px;
+  line-height: 2.2em;
+  font-size: 14px;
+
+}
+
+.services .grid_6 h2 {
+  color:white;
+  padding-top: 30px;
+  padding-left: 25px;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 1.2em;
+  letter-spacing: 0.5px;
+}
+
+.services .grid_6 li:hover, 
+.services .grid_6 a:hover {
+  color: white;
+}
+
+.services footer{
+  clear: both;
+  border-top: 1px solid #d1d1d1;
+  padding-top: 18px;
+  margin-top: 10px;
+
+}
+
+/*
+
+.services .grid_18 { background: pink;}
+.grid_9 { background: orange; }
+
+.container_24 { background: green; }
+.grid_4 { background: yellow; }
+.grid_2 { background: brown; }
+footer { background: black; }
+*/
